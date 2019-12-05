@@ -1,0 +1,16 @@
+{
+    "name": "root",
+    "private": true,
+    "devDependencies": {
+        "lerna": "^3.19.0"
+    },
+    "scripts": {
+        "build": "lerna run build ",
+        "bootstrap": "lerna bootstrap --use-workspaces",
+        "linkit": "lerna link"
+    },
+    "workspaces": [
+        "pcweb/*",
+        "mutlichannel/*"
+    ]
+}

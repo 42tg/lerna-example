@@ -1,0 +1,23 @@
+{
+    "name": "@multichannel/blubb",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.ts",
+    "types": "dist/index.d.ts",
+    "directories": {
+        "dist": "dist"
+    },
+    "files": [
+        "dist/"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "@pcweb/bla": "1.0.0"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}

@@ -1,0 +1,6 @@
+{
+    "packages": ["pcweb/*", "mutlichannel/*"],
+    "npmClient": "yarn",
+    "useWorkspaces": true,
+    "version": "independent"
+}

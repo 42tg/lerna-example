@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "ES2016",
+        "module": "commonjs",
+        "lib": ["ES2015", "ES2016", "DOM"],
+        "outDir": "./dist",
+        "strict": false,
+        "esModuleInterop": true,
+        "declaration": true
+    },
+    "paths": {
+        "@pcweb/bla": ["./pcweb/bla/src/"],
+        "@multichannel/blubb": ["./multichannel/blubb/src"]
+    }
+}
