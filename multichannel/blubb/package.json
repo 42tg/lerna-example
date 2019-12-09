@@ -4,6 +4,7 @@
     "description": "",
     "main": "src/index.ts",
     "types": "dist/index.d.ts",
+    "private": true,
     "directories": {
         "dist": "dist"
     },
