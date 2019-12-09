@@ -11,7 +11,9 @@
         "dist/"
     ],
     "scripts": {
-        "build": "tsc",
+        "clean": "rm -rf ./dist",
+        "compile": "tsc -p tsconfig.build.json",
+        "build": "yarn clean && yarn compile",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],

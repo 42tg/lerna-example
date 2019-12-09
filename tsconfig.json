@@ -1,16 +1,11 @@
 {
+    "extends": "./tsconfig.build.json",
+
     "compilerOptions": {
-        "target": "ES2016",
-        "module": "commonjs",
-        "lib": ["ES2015", "ES2016", "DOM"],
-        "outDir": "./dist",
-        "strict": false,
-        "esModuleInterop": true,
-        "declaration": true,
-        "moduleResolution": "node"
-    },
-    "paths": {
-        "@pcweb/bla": ["./pcweb/bla/src/"],
-        "@multichannel/blubb": ["./multichannel/blubb/src"]
+        "baseUrl": ".",
+        "paths": {
+            "@pcweb/*": ["pcweb/*/src"],
+            "@multichannel/*": ["multichannel/*/src"]
+        }
     }
 }

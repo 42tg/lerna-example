@@ -1,0 +1,9 @@
+{
+    "extends": "../../jsconfig.build.json",
+
+    "compilerOptions": {
+        "outDir": "./dist"
+    },
+
+    "include": ["src/**/*"]
+}

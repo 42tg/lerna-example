@@ -5,9 +5,8 @@ import App from "./App"
 import * as serviceWorker from "./serviceWorker"
 
 import bla from "@pcweb/bla"
-
-bla.tester()
-bla.subClass.echo()
+const blipp = new bla()
+blipp.subClass.echo()
 
 ReactDOM.render(<App />, document.getElementById("root"))
 

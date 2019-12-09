@@ -10,7 +10,7 @@
         "linkit": "lerna link"
     },
     "workspaces": [
-        "pcweb/*",
-        "mutlichannel/*"
+        "multichannel/*",
+        "pcweb/*"
     ]
 }

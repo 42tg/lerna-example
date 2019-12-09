@@ -1,5 +1,11 @@
 {
+    "extends": "./jsconfig.build.json",
+
     "compilerOptions": {
-        "moduleResolution": "node"
+        "baseUrl": ".",
+        "paths": {
+            "@pcweb/*": ["pcweb/*/src"],
+            "@multichannel/*": ["multichannel/*/src"]
+        }
     }
 }
