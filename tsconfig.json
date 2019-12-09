@@ -6,7 +6,8 @@
         "outDir": "./dist",
         "strict": false,
         "esModuleInterop": true,
-        "declaration": true
+        "declaration": true,
+        "moduleResolution": "node"
     },
     "paths": {
         "@pcweb/bla": ["./pcweb/bla/src/"],

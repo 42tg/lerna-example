@@ -1,4 +1,5 @@
-import bla from "@pcweb/bla"
-console.log()
-
-bla.tester()
+export default class Blubb {
+    public hello() {
+        console.log("Hello")
+    }
+}
