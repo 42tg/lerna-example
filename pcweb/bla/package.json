@@ -5,6 +5,9 @@
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "private": true,
+    "publishConfig": {
+        "directory": "dist"
+    },
     "directories": {
         "dist": "dist"
     },

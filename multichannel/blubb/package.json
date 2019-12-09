@@ -8,6 +8,9 @@
     "directories": {
         "dist": "dist"
     },
+    "publishConfig": {
+        "directory": "dist"
+    },
     "files": [
         "dist/"
     ],
